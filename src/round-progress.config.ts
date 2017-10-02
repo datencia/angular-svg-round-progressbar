@@ -8,6 +8,7 @@ export interface RoundProgressDefaults {
   stroke?: number;
   color?: string;
   background?: string;
+  fill?: string;
   responsive?: boolean;
   clockwise?: boolean;
   semicircle?: boolean;
@@ -24,6 +25,7 @@ export class RoundProgressConfig {
     stroke: 15,
     color: '#45CCCE',
     background: '#EAEAEA',
+    fill: 'none',
     responsive: false,
     clockwise: true,
     semicircle: false,

@@ -34,6 +34,7 @@ If you're using SystemJS as your module loader, there is also a UMD bundle at `.
 | `radius`       | Radius of the circle.                                                                                     | No        | `125`             | `number`          |
 | `color`        | The color of the `current` value on the circle.                                                           | No        | `#45ccce`         | `string`          |
 | `background`   | Color of the circle's background.                                                                         | No        | `#eaeaea`         | `string`          |
+| `fill`         | Background fill color (within the circle).                                                                | No        | `none`            | `string`          |
 | `stroke`       | Specifies the circle's thickness.                                                                         | No        | `15`              | `number`          |
 | `semicircle`   | Whether the progressbar should be a full circle or a semicircle.                                          | No        | `false`           | `boolean`         |
 | `clockwise`    | Whether the progressbar should rotate clockwise or counter-clockwise.                                     | No        | `true`            | `boolean`         |
@@ -57,6 +58,7 @@ If you're using SystemJS as your module loader, there is also a UMD bundle at `.
     [max]="max"
     [color]="'#45ccce'"
     [background]="'#eaeaea'"
+    [fill]="'none'"
     [radius]="125"
     [stroke]="20"
     [semicircle]="true"
