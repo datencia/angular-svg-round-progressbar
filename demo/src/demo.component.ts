@@ -17,6 +17,7 @@ export class DemoComponent {
   clockwise: boolean = true;
   color: string = '#45ccce';
   background: string = '#eaeaea';
+  fill: string = 'none';
   duration: number = 800;
   animation: string = 'easeOutCubic';
   animationDelay: number = 0;
